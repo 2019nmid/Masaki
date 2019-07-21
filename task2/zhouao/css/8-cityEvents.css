@@ -1,0 +1,110 @@
+#douban-cityEvents {
+  /* margin-bottom: 100px; */
+}
+
+#douban-cityEvents #wrapper {
+  margin-bottom: 70px;
+}
+
+#douban-cityEvents #wrapper #l .list {
+  margin-top: -15px;
+}
+
+#douban-cityEvents #wrapper #l h2 {}
+
+#douban-cityEvents #wrapper #l h2 a {
+  color: #643;
+}
+
+#douban-cityEvents #wrapper #l h1 {}
+
+#douban-cityEvents #wrapper #l h1 a {
+  color: #ec5303;
+}
+
+#douban-cityEvents #m {}
+
+#douban-cityEvents #m .main {
+  /* margin-left: -20px; */
+}
+
+#douban-cityEvents #m .main .item {
+  width: 248px;
+  text-align: left;
+  overflow: hidden;
+  zoom: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#douban-cityEvents #m .main .item img {
+  margin-right: 10px;
+  width: 70px;
+  height: 90px;
+}
+
+#douban-cityEvents #m .main .item .content {
+  overflow: hidden;
+  zoom: 1;
+  color: #666;
+  width: 168px;
+
+}
+
+#douban-cityEvents #m .main .item .content h2 {
+  color: #666;
+  font: 12px Helvetica,Arial,sans-serif;
+  margin-bottom: 3px;
+}
+
+#douban-cityEvents #m .main .item .content h1 {
+  color: #666;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+#douban-cityEvents #m .main .item .content h1 a {
+  color: #643;
+  font: 13px Helvetica,Arial,sans-serif;
+}
+
+#douban-cityEvents #r {}
+
+#douban-cityEvents #r .title {}
+
+#douban-cityEvents #r .title h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#douban-cityEvents #r .main {
+  margin-top: -7px;
+}
+
+#douban-cityEvents #r .main .item {
+  margin-bottom: 10px;
+}
+
+#douban-cityEvents #r .main .item h2 {}
+
+#douban-cityEvents #r .main .item h2 a {
+  width: 100%;
+    margin-bottom: 2px;
+    /* font-size: 14px; */
+    color: #333;
+    font: 14px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+}
+
+#douban-cityEvents #r .main .item .content {}
+
+#douban-cityEvents #r .main .item .content a {
+  color: #643;
+  font: 12px Helvetica,Arial,sans-serif;
+  line-height: 1.62;
+  margin-right: 10px;
+}

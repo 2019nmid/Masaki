@@ -1,0 +1,147 @@
+
+header {
+  width: 950px;
+  margin: 34px auto;
+}
+
+header h1 {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+  width: 160px;
+  height: 34px;
+  margin: 0 20px 0 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal;
+  background: url(../img/1-header/logo.png) no-repeat 0 0;
+  overflow: hidden;
+}
+
+
+header h1 a{
+  display: block;
+    height: 34px;
+    line-height: 10em;
+}
+
+header .nav-search{
+  position: relative;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle;
+    width: 270px;
+    height: 30px;
+    border: 1px solid #c3c3c3;
+}
+
+header .nav-search .input{
+  display: block;
+    height: 30px;
+    overflow: hidden;
+}
+
+header .nav-search .input input{
+  width: 240px;
+    border: none;
+    font-size: 13px;
+    height: 20px;
+    padding: 5px;
+}
+
+header .nav-search .button{
+  position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(../img/1-header/search-logo.png) 50% 50% no-repeat;
+}
+header .nav-search .button input{
+  border: none;
+  background: transparent;
+  *padding-left: 30px;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  color: transparent;
+  cursor: pointer;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+header .nav-link {
+  float: right;
+  margin-top: 6px;
+  width: 481px;
+  height: 23px;
+  /* border: 1px solid red; */
+}
+
+
+header .nav-link ul{
+  width: 482px;
+  height: 21px;
+  /* border: 1px solid red; */
+  display: block;
+}
+
+header .nav-link li {
+  display: inline-block;
+  zoom: 1;
+  margin: 0 0 0 14px;
+  /* border: 1px solid red; */
+}
+
+header .nav-link li:nth-child(1) a {
+  background-position: 0 0;
+}
+
+header .nav-link li:nth-child(2) a {
+  background-position: -60px 0;
+}
+
+header .nav-link li:nth-child(3) a {
+  background-position: -120px 0;
+}
+
+header .nav-link li:nth-child(4) a {
+  background-position: -180px 0;
+}
+
+header .nav-link li:nth-child(5) a {
+  background-position: -240px 0;
+}
+
+header .nav-link li:nth-child(6) a {
+  background-position: -298px 0;
+}
+
+header .nav-link li:nth-child(7) a {
+  background-position: -360px 0;
+}
+
+header .nav-link li:nth-child(8) a {
+  background-position: -421px 0;
+}
+
+
+header .nav-link li a {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 42px;
+  height: 20px;
+  overflow: hidden;
+  margin: 0;
+  line-height: 17em;
+  outline: none;
+  vertical-align: middle;
+  background: transparent url(../img/1-header/nav-logo.png) no-repeat 100% 100%;
+  /* background-image: -webkit-image-set(url(../img/1-header/nav-logo.png) 1x, url(../img/1-header/nav-logo@2x.png) 2x); */
+}

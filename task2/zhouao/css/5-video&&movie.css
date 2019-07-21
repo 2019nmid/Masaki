@@ -1,0 +1,363 @@
+/****************video****************/
+#douban-video {
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  /* border: 1px solid red; */
+}
+
+#douban-video .video-wrapper {
+  width: 950px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#douban-video .video-wrapper .video {
+  width: 100px;
+  margin-right: 20px;
+}
+
+#douban-video .video-wrapper .video h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#douban-video .video-wrapper .video h2 a {
+  color: #494949;
+  font-size: 24px;
+}
+
+#douban-video .main {}
+
+#douban-video .main .top {}
+
+#douban-video .main .top .title {
+  margin-bottom: 15px;
+}
+
+#douban-video .main .top .title a {
+  margin-bottom: 15px;
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#douban-video .main .top .top-video {
+  margin-bottom: 25px;
+  display: flex;
+}
+
+#douban-video .main .top .top-video .item {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
+  margin-right: 30px;
+}
+
+#douban-video .main .top .top-video .item img {
+  width: 250px;
+  height: 140px;
+  margin-bottom: 10px;
+}
+
+#douban-video .main .top .top-video .item a {
+  font-size: 13px;
+  line-height: 1.54;
+  color: #494949;
+  /* margin-top: 5px; */
+}
+
+#douban-video .main .bottom {}
+
+#douban-video .main .bottom .title {
+  margin-bottom: 15px;
+}
+
+#douban-video .main .bottom .title a {
+  margin-bottom: 15px;
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#douban-video .main .bottom .bottom-video {
+  margin-bottom: 25px;
+  display: flex;
+}
+
+#douban-video .main .bottom .bottom-video .item {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
+  margin-right: 30px;
+}
+
+#douban-video .main .bottom .bottom-video .item img {
+  width: 250px;
+  height: 140px;
+  margin-bottom: 10px;
+}
+
+#douban-video .main .bottom .bottom-video .item a {
+  font-size: 13px;
+  line-height: 1.54;
+  color: #494949;
+  /* margin-top: 5px; */
+}
+
+
+
+
+
+
+
+
+/*******************movie*************************/
+#douban-movie {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 20px;
+  background: #f7f7f7;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+#wrapper {
+  width: 950px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#l {
+  width: 100px;
+  margin-right: 20px;
+}
+
+#l .list {
+  margin-bottom: 40px;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+#l .list h2 {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#l .list h2 img {
+  top: -5px;
+  position: relative;
+  border: 0;
+}
+
+#l .list h2 a {
+  color: #27a;
+  font: 14px Arial, Helvetica, sans-serif;
+}
+
+#l h1 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#l h1 a {
+  color: #27a;
+  font-size: 24px;
+}
+
+#m {
+  width: 535px;
+}
+
+#m .title {}
+
+#m .title h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#m .title h2 a {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #27a;
+}
+
+#m .main {
+  display: flex;
+  width: 525px;
+  flex-wrap: wrap;
+}
+
+#douban-movie #m .main .item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 24.8%;
+  margin-top: 43px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  margin: 10px 20px 20px 10px;
+  width: 100px;
+}
+
+#m .main .item img {
+  height: 145px;
+  overflow: hidden;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#douban-movie #m .main .item h2 {
+  line-height: 1.45;
+  font-size: 13px;
+  margin-bottom: 4px;
+  word-wrap: break-word;
+  text-align: center;
+  width: 90px;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 auto;
+}
+
+#m .main .item h2 a {
+  /* line-height: 1.45; */
+  /* font-size: 13px; */
+  font: 13px Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+#m .main .item .star {
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+#m .main .item .star span {
+  background: url(../img/6-movie/star.png) no-repeat;
+  width: 55px;
+  height: 11px;
+  margin: 0 3px 0 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#m .main .item:nth-child(2) .star span{
+  background-position: 0 -44px;
+}
+#m .main .item:nth-child(4) .star span{
+  background-position: 0 -44px;
+}
+#m .main .item:nth-child(5) .star span{
+  background-position: 0 -44px;
+}
+#m .main .item:nth-child(6) .star span{
+  background-position: 0 -44px;
+}
+#m .main .item:nth-child(7) .star span{
+  background-position: 0 -44px;
+}
+
+
+#m .main .item .star i {
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+  margin-left: 4px;
+    color: #e09015;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#m .main .item button {
+  background: #1c8bd0;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  zoom: 1;
+    vertical-align: middle;
+    padding: 2px 10px;
+    border-radius: 2px;
+    border: 0px;
+    margin-top: 5px;
+}
+
+#r {
+  width: 265px;
+}
+
+#r .top {
+  margin-bottom: 20px;
+}
+
+#r .top .title {}
+
+#r .top .title h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+    line-height: 150%;
+}
+
+#r .top .title h2 a {
+  color: #27a;
+}
+
+#r .top .content {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#r .top .content a {
+  font: 12px Helvetica,Arial,sans-serif;
+  line-height: 1.62;
+  color: #27a;
+  letter-spacing: normal;
+    word-spacing: normal;
+   margin-right: 24px;
+}
+
+#r .bottom {}
+
+#r .bottom .title{}
+
+#r .bottom .title h2{
+  font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+    line-height: 150%;
+}
+
+#r .bottom .title h2 a{
+  color: #27a;
+}
+
+#douban-movie #r .bottom .main .item {
+  margin-bottom: 6px;
+  padding-bottom: 5px;
+  list-style-type: decimal;
+  list-style-position: inside;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#r .bottom .main .item i {}
+
+#r .bottom .main .item a {
+  margin-left: 5px;
+  color: #27a;
+}
