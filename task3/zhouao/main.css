@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+}
+
+#sliderVerify {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  /* box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); */
+}
+
+#imgRandom {
+  width: 250px;
+  height: 250px;
+  /* border: 1px solid gray; */
+position: relative;
+margin: 0 auto;
+}
+
+#canvas{
+position: absolute;
+/* border: 1px solid blue; */
+
+}
+
+#block{
+position: absolute;
+/* border: 1px solid red; */
+}
+
+#refresh button{
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+  border: none;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+#refresh{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-top: 5px;
+}
+
+#refresh .confirmTxt{
+margin-right: 40px;
+line-height: 10px;
+}
+
+#box {
+  position: relative;
+  width: 250px;
+  height: 20px;
+  margin-top: 15px;
+  background-color: #e8e8e8;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  /* border: 1px solid red; */
+  border-radius: 50px;
+}
+
+.bgColor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 20px;
+  /* background-color: lightblue; */
+  /* border: black solid 1px; */
+  border-radius: 50px 0 0 50px;
+}
+
+.txt {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}
+
+.slider {
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.slider>img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

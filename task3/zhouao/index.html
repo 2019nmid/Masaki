@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>滑块解锁</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <div id="sliderVerify">
+    <div id="imgRandom">
+      <canvas width="250px" height="250px" id="canvas"></canvas>
+      <canvas  width="250px" height="250px" id="block"></canvas>
+    </div>
+    <div id="refresh">
+      <button onclick="refresh()"><img src="./img//slider/refresh.png" alt=""></button>
+      <div class="confirmTxt"></div>
+    </div>
+    <div id="box">
+      <div class="bgColor"></div>
+      <div class="txt">滑动验证</div>
+      <div class="slider"><img class="sliderChange" src="./img/slider/slider.png"></div>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
