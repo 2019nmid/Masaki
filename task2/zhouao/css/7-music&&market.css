@@ -1,0 +1,270 @@
+/****************music***********************/
+#douban-music{
+  margin-bottom: 40px;
+}
+
+#douban-music #l h1 a{
+  color: #f38c00;
+}
+
+#douban-music #l .list{
+  margin-top: -20px;
+}
+
+#douban-music #l  .list .icon{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#douban-music #l  .list h2 a{
+  color: #555d53;
+}
+
+#douban-music #l  .list .icon a{
+  color: #555d53;
+}
+
+#douban-music #l  .list .icon .icon2{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  background: url(../img/icon/icon.jpg) no-repeat -250px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 2px #999;
+  -moz-box-shadow: 1px 1px 2px #999;
+  box-shadow: 1px 1px 2px #999;
+}
+
+#douban-music #l  .list .icon .icon3{
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  background: url(../img/icon/icon.jpg) no-repeat -50px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 2px #999;
+  -moz-box-shadow: 1px 1px 2px #999;
+  box-shadow: 1px 1px 2px #999;
+}
+
+#douban-music #m .top{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#douban-music #m .top .main{
+  margin-top: -40px;
+}
+
+#douban-music #m .top .main .item{
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 24.8%;
+  margin-top: 40px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+#douban-music #m .top .main .item img{
+  height: 80px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#douban-music #m .top .main .item h2{
+  color: #555d53;
+  font: 12px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+}
+
+#douban-music #m .top .main .item h2 a{
+  color: #555d53;
+}
+
+#douban-music #m .bottom .main{
+  margin-top: -40px;
+}
+#douban-music #m .bottom .main .item{
+  display: inline-block;
+    *display: inline;
+    zoom: 1;
+    width: 24.8%;
+    margin-top: 40px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+#douban-music #m .bottom .main .item img{
+  width: 80px;
+    height: 80px;
+}
+#douban-music #m .bottom .main .item h2{
+  line-height: 1.45;
+    margin-bottom: 4px;
+    word-wrap: break-word;
+    font: 13px Helvetica,Arial,sans-serif;
+}
+
+#douban-music #r{}
+
+#douban-music #r .title h2{
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#douban-music #r .title h2 a{
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #27a;
+}
+
+#douban-music #r .main{}
+#douban-music #r .main ol li{
+  display: flex;
+  margin-bottom: 20px;
+}
+#douban-music #r .main ol li span{
+  float: left;
+  max-height: 61px;
+  _height: 61px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+#douban-music #r .main ol li img{
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+#douban-music #r .main ol li .content{
+  display: flex;
+  flex-direction: column;
+}
+#douban-music #r .main ol li .content .name{}
+#douban-music #r .main ol li .content .name a{
+  color: #555d53;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+#douban-music #r .main ol li .content .type{
+  margin-top: 4px;
+  color: #999;
+}
+#douban-music #r .main ol li .content .type h2{
+  color: #999;
+  font: 12px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************market*******************/
+#douban-market{
+  background: #f7f7f7;
+  margin-bottom: 40px;
+}
+
+#douban-market #wrapper #l,#douban-market #wrapper #m,#douban-market #wrapper #r{
+  margin-top: 40px;
+}
+
+#douban-market #m .main .item{
+  float: left;
+  width: 240px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+#douban-market #m .main .item img{
+  width: 240px;
+  height: 220px;
+}
+
+#douban-market #m .main .item .msg{
+  /* margin-top: 10px; */
+  line-height: 22px;
+  font-size: 16px;
+  clear: both;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#douban-market #m .main .item .msg h2{
+  color: #E55457;
+    float: right;
+    line-height: 22px;
+    /* font-size: 16px; */
+    font: 16px Helvetica,Arial,sans-serif;
+}
+
+#douban-market #m .main .item .msg h1{
+  color: #3377A9;
+  line-height: 22px;
+  font: 16px Helvetica,Arial,sans-serif;
+}
+
+#douban-market #r{
+  margin-left: 15px;
+}
+
+#douban-market #r .top{
+  margin-bottom: 30px;
+}
+
+#douban-market #r .top .title{}
+
+#douban-market #r .top .title h2{}
+
+#douban-market #r .top .main{
+  
+}
+
+#douban-market #r .top .main img{
+  display: block;
+  width: 100%;
+  height: 95px;
+}
+
+#douban-market #r .top .main h2{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #4784B1;
+}
+
+#douban-market #r .top .main h2 a{
+  color: #3377A9;
+  font: 14px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+}

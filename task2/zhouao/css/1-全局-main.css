@@ -1,0 +1,89 @@
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  /* color: #111; */
+  /* background: #fff; */
+}
+
+body,td,th{
+  font:12px Helvetica,Arial,sans-serif;
+  line-height: 1.62;
+}
+
+div{
+  display: block;
+}
+
+ul,ol{
+  list-style: none;
+}
+
+
+a:visited{
+  color: #669;
+  text-decoration: none;
+}
+a:link{
+  color: #37a;
+  text-decoration: none;
+}
+a{
+  cursor: pointer;
+}
+a:hover{
+  background-color: #37a;
+  color: #fff
+}
+li{
+  display: list-item;
+}
+h1 {
+    word-wrap: break-word;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    /* color: #494949; */
+    margin: 0;
+    padding: 0 0 15px 0;
+    line-height: 1.1;
+}
+form{
+  margin: 0;
+  padding: 0;
+  border: 0px;
+  display: block;
+}
+input {
+  margin-right: 3px;
+  vertical-align: middle;
+}
+input, textarea, select, button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  outline: none;
+}
+iframe {
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

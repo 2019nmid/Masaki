@@ -1,0 +1,282 @@
+/*************group********************/
+#douban-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 20px;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+#douban-group #wrapper #l h1 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  line-height: 150%;
+}
+
+#douban-group #wrapper #l h1 a {
+  color: #007982;
+}
+
+#douban-group #wrapper #l .main {
+  margin-bottom: 40px;
+  margin-top: -15px;
+}
+
+#douban-group #wrapper #l .main h2 {
+  position: relative;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #007982;
+}
+
+#douban-group #wrapper #l .main h2 a {
+  color: #017a85;
+  font: 15px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+
+
+#douban-group #m .main {
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; */
+  margin-left: -30px;
+  margin-top: -30px;
+  width: 550px;
+}
+
+#douban-group #m .item {
+  display: flex;
+  width: 240px;
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: left;
+  overflow: hidden;
+  zoom: 1;
+  color: #999;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font: 12px Helvetica, Arial, sans-serif;
+}
+
+#douban-group #m .item img {
+
+  width: 48px;
+  height: 48px;
+}
+
+#douban-group #m .item .content {
+  margin-left: 10px;
+}
+
+#douban-group #m .item .content h3 {
+  color: #999;
+  line-height: 1.45;
+  font: 13px Helvetica, Arial, sans-serif;
+}
+
+#douban-group #m .item .content h2 {
+  margin-bottom: 5px;
+  margin-top: -2px;
+}
+
+#douban-group #m .item .content h2 a {
+  color: #017a85;
+  font: 13px Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  line-height: 1.45;
+
+}
+
+#douban-group #r .title h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#douban-group #r .item {
+  margin-bottom: 10px;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#douban-group #r .item h2 a {
+  color: #333;
+  font: 14px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+#douban-group #r .item .content a {
+  margin-right: 10px;
+  color: #017a85;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/********************book***********************/
+#douban-book {
+  background: #f7f7f7;
+  margin-bottom: 40px;
+}
+
+
+
+#douban-book #l {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#douban-book #m {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#douban-book #r {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#douban-book #l h1 a {
+  color: #4a2f14;
+  font-size: 24px;
+}
+
+#douban-book #l .list {
+  margin-top: -15px;
+}
+
+#douban-book #l h2 a {
+  color: #614e3c;
+  font: 14px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+#douban-book #l .icon .read {
+  color: #614e3c;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+#douban-book #l .icon .icon2 {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  background: url(../img/icon/icon.jpg) no-repeat;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 2px #999;
+  -moz-box-shadow: 1px 1px 2px #999;
+  box-shadow: 1px 1px 2px #999;
+}
+
+#douban-book #l .icon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#douban-book #m .top {
+  margin-bottom: 30px;
+
+}
+
+#douban-book #m .main {
+  margin-top: -40px;
+}
+
+#douban-book #m .item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 24.8%;
+  margin-top: 40px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+#douban-book #m .item h2 {
+  margin-top: -10px;
+
+}
+
+#douban-book #m .item h2 a {
+  color: #614e3c;
+}
+
+#douban-book #m .item h3 {
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  color: #111;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
+
+#douban-book #m .item button {
+  color: #fff;
+  background: #999a95;
+}
+
+#douban-book #r {
+  margin-left: 20px;
+}
+
+#douban-book #r .title h2 {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #072;
+  margin: 0 0 12px 0;
+  line-height: 150%;
+}
+
+#douban-book #r .main .item {
+  margin-left: -10px;
+}
+
+
+#douban-book #r .main .item .con {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  margin: -1px 0 10px 0;
+  border-bottom: 1px solid #eaeaea;
+
+}
+
+#douban-book #r .main .item .con h2:nth-child(1) a {
+  color: #999;
+}
+
+#douban-book #r .main .item .con h2 {
+  zoom: 1;
+  margin-left: 10px;
+}
+
+#douban-book #r .main .item .con h2 a {
+  color: #614e3c;
+  cursor: pointer;
+  font: 12px Helvetica, Arial, sans-serif;
+  line-height: 1.62;
+}
