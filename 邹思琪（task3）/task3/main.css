@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 100px auto;
+}
+#imgBox {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    background-size: cover;    
+}
+#defect {
+    position: absolute;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#appear {
+    position: absolute;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    background: rgba(87, 86, 84, 0.6);
+}
+#tips{
+    width: 365px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    font-family: 幼圆;
+    color: #666666;
+    background:#eeeeee;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: bold;
+}
+#leftCir {
+    position: absolute;
+    top: 265px;
+    left: 400px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #eeeeee;
+}
+#rightCir {
+    position: absolute;
+    top: 265px;
+    right: 400px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #eeeeee;
+}
+#button{
+    cursor: pointer;
+    position: absolute;
+    top: 260px;
+    left: 400px;
+    width: 45px;
+    height: 45px;    
+    line-height:45px;
+    border-radius: 50%;
+    border: 1px #cccccc solid;
+    text-align: center;
+    background: #ffffff;
+    color:#5bae0d;
+    font-size: 20px;
+    font-weight: bold;
+}
