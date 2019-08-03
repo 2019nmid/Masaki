@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>loggedIn</title>
+    <style>
+        body {
+            background: #f6f6f6;
+        }
+        img {
+            margin: 100px auto 0;
+            width: 500px;
+            height: 400px;
+            display: block;
+        }
+        p {
+            text-align: center;
+            margin: 20px auto;
+            font-family: 幼圆;
+            font-size: 30px;
+            font-weight: bold;
+            color: #444444;
+        }
+        div {
+            text-align: center;
+            margin: 0 auto;
+            font-family: 微软雅黑;
+            font-size: 13px;
+            cursor: pointer;
+            color: #666666;
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="./img/loggedInBg.jpg" alt="">
+    <p>登录成功</p>
+    <div onclick="toSignUp()">重新注册点我</div>
+</body>
+<script>
+    function toSignUp() {
+        window.location.href = 'signUp.html';
+    }
+</script>
+</html>
