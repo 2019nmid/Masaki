@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="请输入邮箱" id="email">
+    <button onclick="a()">asf</button>
+</body>
+<script>
+	function a(){
+		var email = document.querySelector('#email').value;
+		var reg = /^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/;
+		if(reg.test(email)){
+			alert("邮箱格式正确");
+		}else{
+			alert("邮箱格式不正确");
+		}
+	}
+</script>
