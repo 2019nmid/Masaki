@@ -3,15 +3,15 @@
 
 ### 目录结构
 
-![](/pic/1.png)
+![](pic/1.png)
 
 ### 打包运行
 
-![](/pic/2.png)
+![](pic/2.png)
 
 ### 热更新
 
-![](/pic/3.png)
+![](pic/3.png)
 
-![](/pic/3.jpg)
+![](pic/3.jpg)
 
