@@ -1,0 +1,28 @@
+body {
+  width: 100%;
+  height: 600px;
+}
+article {
+  border: 1px solid red;
+  width: 100%;
+  height: 20%;
+  background: #5a4b4b;
+  background: url(img/2.png) no-repeat center;
+}
+
+header {
+  border: 1px solid green;
+  width: 100%;
+  height: 20%;
+  background: #a55959;
+  background: url(img/3.png) no-repeat center;
+}
+
+footer {
+  border: 1px solid black;
+  width: 100%;
+  height: 20%;
+  background: #615c5c;
+  background: url(img/4.png) no-repeat center;
+}
+
