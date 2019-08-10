@@ -47,7 +47,7 @@ npm run start实现热更新
 ### 打包
 ```
 配置webpack.config.js,设置为development
-在终端输入webpack打包到dist文件夹下
+在终端输入webpack就会将test文件夹下的文件打包压缩到dist文件夹下
 ```
 ![](README_IMG/dist.png)
 
