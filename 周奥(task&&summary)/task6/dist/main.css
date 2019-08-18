@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif; }
+
+.container {
+  padding: 20px;
+  max-width: 350px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px; }
+  .container .todoHeader .title {
+    text-align: center;
+    margin: 0 0 50px 0;
+    color: #3498db;
+    font-weight: 100; }
+  .container .todoHeader .todoStatus {
+    color: #bdc3c7;
+    margin-top: -20px; }
+  .container .todoHeader .item {
+    background: #fff; }
+    .container .todoHeader .item .todoItem {
+      color: #46b7b9;
+      width: 100%;
+      border-bottom: 1px solid #eee;
+      height: 30px;
+      line-height: 30px;
+      text-align: left;
+      color: #2980b9; }
+      .container .todoHeader .item .todoItem .delete-item {
+        float: right;
+        outline: 0;
+        width: 30px;
+        height: 25px;
+        border-radius: 4px;
+        color: #f05941;
+        background: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        margin-top: 2px; }
+        .container .todoHeader .item .todoItem .delete-item:hover {
+          background: #ecf0f1; }
+      .container .todoHeader .item .todoItem input:checked + .itemText {
+        color: #e74c3c;
+        text-decoration: line-through; }
+  .container .todoBody {
+    padding-top: 20px; }
+    .container .todoBody .todoContent {
+      outline: 0;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      height: 30px;
+      border-radius: 4px;
+      text-indent: 10px; }
+    .container .todoBody .todoBtn {
+      outline: 0;
+      height: 32px;
+      border-radius: 4px;
+      width: 30px;
+      padding: 4px;
+      color: #2980b9;
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      cursor: pointer; }
+      .container .todoBody .todoBtn:hover {
+        background: #ecf0f1; }
+
