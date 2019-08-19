@@ -2,9 +2,11 @@
 
 src——>dist
 
-![pic/a.png]()
 
-![pic/b.png]()
+![](pic/a.png)
+
+
+![](pic/b.png)
 
 ### summary
 
