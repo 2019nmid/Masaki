@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登录</title>
+  <link rel="stylesheet" href="public/style/main.css">
+</head>
+
+<body>
+  <header>
+    <div>week7,zhouao,nodejs,express,artTemplate</div>
+  </header>
+
+  <div id="page">
+    <div class="chooseBtn">
+      <button class="loginBtn">登录</button>
+      <button class="registerBtn">注册</button>
+    </div>
+    <!--登录-->
+    <div class="login">
+      <form method="POST" class="loginForm" action="/login">
+        <!--用户名-->
+        <div class="nameLine">
+          <input type="text" name="loginName" id="loginName" required placeholder="用户名">
+        </div>
+        <!--密码-->
+        <div class="passwordLine">
+          <input type="password" name="password1" id="password1" required placeholder="密码">
+        </div>
+        <!--登录-->
+        <div class="submitLine">
+          <input type="submit" value="登录">
+        </div>
+      </form>
+    </div>
+    <!--注册-->
+    <div class="register">
+      <form method="POST" class="registerForm" action="/register">
+        <!--用户名-->
+        <div class="nameLine">
+          <input type="text" name="Rname" id="Rname" required maxlength="10" placeholder="请输入用户名">
+          <div class="text1"></div>
+        </div>
+        <!--邮箱-->
+        <div class="emailLine">
+          <input type="email" name="Remail" id="Remail" required placeholder="请输入邮箱">
+          <div class="text2"></div>
+        </div>
+        <!--密码-->
+        <div class="passwordLine">
+          <input type="password" name="password2" id="password2" required placeholder="请输入密码">
+          <div class="text3"></div>
+        </div>
+        <div class="passwordLine2">
+          <input type="password" name="password3" id="password3" required placeholder="再次输入密码">
+          <div class="text4"></div>
+        </div>
+        <!--注册-->
+        <div class="submitLine">
+          <input type="submit" value="注册">
+        </div>
+
+      </form>
+    </div>
+
+  </div>
+  <footer>
+    <div>I am vegetable，23333</div>
+  </footer>
+</body>
+<script src="public/js/main.js"></script>
+</html>
