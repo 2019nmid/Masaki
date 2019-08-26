@@ -42,12 +42,15 @@ app.listen(3000, () => {
 ![主页](README_IMG/home.png)
 
 1. 登录成功,用模板引擎渲染得到loginMsg.html
+
    ![登录成功](README_IMG/denglu.png)
 
 2. 登录失败,后台反馈
+
    ![登陆失败](README_IMG/loginerr.png)
    
 3. 注册
+
    ![注册](README_IMG/register.png)
 
    
