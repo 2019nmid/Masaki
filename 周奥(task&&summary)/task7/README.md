@@ -34,11 +34,12 @@ app.listen(3000, () => {
   console.log('服务启动成功');
 });
 ```
-![项目启动](/README_IMG/qidong.png)
+
+![项目启动](README_IMG/open.png)
 
 ### 项目展示
 
-![主页](/README_IMG/index.png)
+![主页](README_IMG/home.png)
 
 1. 登录成功,用模板引擎渲染得到loginMsg.html
    ![登录成功](README_IMG/denglu.png)
