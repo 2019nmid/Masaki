@@ -1,0 +1,38 @@
+{
+  "user": [{
+    "id": 1,
+    "userName": "jack",
+    "userMail": "1064216064@qq.com",
+    "userPsw": "123456"
+  }, {
+    "id": 2,
+    "userName": "tom",
+    "userMail": "1064216063@qq.com",
+    "userPsw": "123456"
+  }, {
+    "id": 3,
+    "userName": "chris",
+    "userMail": "1064216062@qq.com",
+    "userPsw": "123456"
+  }, {
+    "userName": "zao",
+    "userMail": "123456@qq.com",
+    "userPsw": "123456",
+    "id": 4
+  }, {
+    "userName": "jina",
+    "userMail": "123456@qq.com",
+    "userPsw": "123456",
+    "id": 5
+  }, {
+    "userName": "eric",
+    "userMail": "123456@qq.com",
+    "userPsw": "123456",
+    "id": 6
+  }, {
+    "userName": "json",
+    "userMail": "12@11.com",
+    "userPsw": "123456",
+    "id": 7
+  }]
+}

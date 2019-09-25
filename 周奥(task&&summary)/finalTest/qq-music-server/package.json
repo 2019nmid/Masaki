@@ -1,0 +1,19 @@
+{
+  "name": "qq-music-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon -w src --exec \"babel-node index.js --presets env\"",
+    "build": "babel src -s -D -d dist --presets env"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "koa": "^2.8.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.7.1",
+    "puppeteer-core": "^1.20.0"
+  }
+}
