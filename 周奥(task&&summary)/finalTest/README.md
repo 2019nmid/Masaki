@@ -17,7 +17,7 @@
 ## 目录结构
 ### 前端
 ```
-|-- qq-music
+|-- qq-music-client
     |-- .browserslistrc
     |-- .eslintrc.js
     |-- .gitignore
